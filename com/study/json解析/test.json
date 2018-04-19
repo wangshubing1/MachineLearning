@@ -1,0 +1,215 @@
+{
+	"orderNo": "test7584568896",
+	"jsonStr": {
+		"ret": 0,
+		"personalSummaryReport": {
+			"rulesResult": {
+				"id": "RT18012717385855842209093",
+				"final_decision": "拒绝",
+				"reason_code": ["D304-5", "D301-2"],
+				"reasons": ["客户行/职业风险较高，建议谨慎审批。", "非准入城市，非目标客群，提供参考。"]
+			},
+			"basicInfo": {
+				"name": "美少女",
+				"gender": "男",
+				"cnid": "310105199301019110",
+				"age": 25,
+				"birth": "1993-1-1",
+				"account": "15900065431",
+				"position": "统称工薪类",
+				"identityCheck": "未知",
+				"idCardAddress": "unknown",
+				"companyName": "我来贷",
+				"companyTel": "0755-27858585",
+				"isCompanyTelInPhoneBook": "通讯录中不存在",
+				"companyAddr": null,
+				"department": "",
+				"company_position": "",
+				"entry_time": "2018-01-27",
+				"industry": "服务、商业-其他商业",
+				"income_month": "30000",
+				"salary_type": "",
+				"house_type": "",
+				"house_month_amount": "",
+				"car_type": "",
+				"car_month_amount": "",
+				"applied_amount": "",
+				"applied_tenor": "",
+				"applied_at": "2018-01-27",
+				"residentAddress": ",,,null城市",
+				"familyAddress": "",
+				"familyTel": "",
+				"mobileInNetTime": "未知",
+				"scoreClass": "D",
+				"scoreClass2": "D",
+				"zmxyScore": "650分以下"
+			},
+			"educationInfo": {
+				"educations": []
+			},
+			"contactsInfo": {
+				"liaisons": [{
+					"name": "嘿嘿",
+					"relationship": "父母",
+					"mobile": "15975066566",
+					"remark": "",
+					"isHitBlacklist": "否",
+					"isInPhonebook": "否",
+					"company": "",
+					"position": "",
+					"address": ""
+				}]
+			},
+			"riskInfo": {
+				"faceDetection": "未知",
+				"mobileRealName": "未知",
+				"addrCheck": {
+					"gpsCheckWithAddr": {
+						"result": false,
+						"gpsAddr": ""
+					},
+					"phoneBelongCheckWithAddr": {
+						"result": false,
+						"phoneBelongAddr": "广东中山中国移动"
+					}
+				},
+				"isProxyApply": "未知",
+				"isLoanFraud": "未知",
+				"isCnidInLose": "未知",
+				"isCourtDishonesty": "未知",
+				"isCourtExecute": "未知",
+				"deviceRisk": {
+					"result": "否",
+					"remark": ""
+				},
+				"phoneRisk": {
+					"result": "否",
+					"remark": ""
+				},
+				"someWifiApply": {
+					"result": "否",
+					"remark": ""
+				},
+				"someGpsApply": {
+					"result": "否",
+					"remark": ""
+				},
+				"creditCardInfo": {
+					"overdueCnt": "未知",
+					"creditCash": "未知"
+				},
+				"externalLoanInfo": {
+					"bankCount": {
+						"remark": "无异常",
+						"bankCount": 0
+					},
+					"noBankCount": {
+						"remark": "无异常",
+						"bankCount": 0
+					}
+				},
+				"phonebookLoanInfo": {
+					"result": "否",
+					"remark": ""
+				},
+				"smsHitRiskKeywords": {
+					"result": "否",
+					"remark": ""
+				},
+				"badCreditHistory": {
+					"result": "否",
+					"remark": ""
+				},
+				"isCnidInBlackList": {
+					"result": "否",
+					"remark": ""
+				},
+				"isMobileInBlackList": {
+					"result": "否",
+					"remark": ""
+				},
+				"isCompanyInBlackList": {
+					"result": "否",
+					"remark": ""
+				},
+				"isInExternalBlackList": {
+					"result": "否",
+					"remark": "",
+					"judicialResult": "否",
+					"judicialRemark": "",
+					"judicialSource": "",
+					"creditOverdueResult": "否",
+					"creditOverdueRemark": "",
+					"creditOverdueSource": "",
+					"otherResult": "否",
+					"otherRemark": "",
+					"otherSource": ""
+				}
+			},
+			"topContactNumbers": [],
+			"externalPlatformLoans": {
+				"fmD7CellLoanCnt": 0,
+				"fmD7CnidLoanCnt": 0,
+				"fmM1CellLoanCnt": 0,
+				"fmM1CnidLoanCnt": 0,
+				"fmM3CellLoanCnt": 0,
+				"fmM3CnidLoanCnt": 0,
+				"cnidLoanCnt": 0,
+				"cellLoanCnt": 0,
+				"m6CnidLoanCnt": 0,
+				"m6CellLoanCnt": 0,
+				"deviceLoanCnt": 0,
+				"m6DeviceLoanCnt": 0
+			},
+			"nfcsReport": {},
+			"houseFundReport": {
+				"name": "",
+				"depositBase": "",
+				"companyName": "",
+				"depositMonth": "",
+				"locationCity": "",
+				"balance": "",
+				"status": "",
+				"recordDate": "",
+				"cnid": "",
+				"idCheck": "",
+				"continueMonths": ""
+			},
+			"socialReport": {
+				"depositBase": "",
+				"companyName": "",
+				"locationCity": "",
+				"lastPaytimeDay": "",
+				"stopTimes": "",
+				"stopMonthCount": "",
+				"status": "",
+				"nameCheck": "",
+				"idCheck": "",
+				"continueMonths": ""
+			},
+			"pySocialReport": {
+				"name": "",
+				"depositBase": "",
+				"companyName": "",
+				"status": "",
+				"locationCity": "",
+				"idCheck": "",
+				"continueMonths": "",
+				"endowmentAmount": ""
+			},
+			"predictionInfo": {
+				"incomePrediction": {
+					"result": "未知"
+				},
+				"delinquentPrediction": {
+					"result": "未知"
+				},
+				"fraudPrediction": {
+					"result": "未知"
+				}
+			}
+		}
+	},
+	"sign": "D3BE0EE1BC1A24C21E63313B34F602D7",
+	"timestamp": "1517206745007"
+}

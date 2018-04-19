@@ -1,0 +1,1 @@
+f = open("test2","w")
