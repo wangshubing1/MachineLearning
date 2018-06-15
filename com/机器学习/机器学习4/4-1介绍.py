@@ -28,7 +28,6 @@ import math
 def residual(t, x, y):
     return y - (t[0] * x ** 2 + t[1] * x + t[2])
 
-
 def residual2(t, x, y):
     print (t[0], t[1])
     return y - (t[0]*np.sin(t[1]*x) + t[2])
