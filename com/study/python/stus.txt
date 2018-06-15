@@ -1,2 +1,0 @@
-zs	24	nan
-ls	25	nv
