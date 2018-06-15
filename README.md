@@ -4,4 +4,8 @@
   另一部分《机器学习》是看邹博视频编写
   
   另外一些原理知识或者概念性知识可以参考：
+  
   https://blog.csdn.net/txbsw/article/category/7396283
+  
+  
+  机器学习只能当作业余爱好
