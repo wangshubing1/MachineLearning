@@ -32,13 +32,13 @@ if __name__ == '__main__':
 			lenses_list.append(each[lensesLabels.index(each_label)])
 		lenses_dict[each_label] = lenses_list
 		lenses_list = []
-	# print(lenses_dict)														#打印字典信息
+	#print('lenses_dict is:\n',lenses_dict)														#打印字典信息
 	lenses_pd = pd.DataFrame(lenses_dict)									#生成pandas.DataFrame
-	# print(lenses_pd)														#打印pandas.DataFrame
+	print('编码前lenses_pd is:\n',lenses_pd)														#打印pandas.DataFrame
 	le = LabelEncoder()														#创建LabelEncoder()对象，用于序列化
 	for col in lenses_pd.columns:											#序列化
 		lenses_pd[col] = le.fit_transform(lenses_pd[col])
-	# print(lenses_pd)														#打印编码信息
+	print('编码后lenses_pd is:\n',lenses_pd)														#打印编码信息
 
 	clf = tree.DecisionTreeClassifier(max_depth = 4)						#创建DecisionTreeClassifier()类
 	clf = clf.fit(lenses_pd.values.tolist(), lenses_target)					#使用数据，构建决策树

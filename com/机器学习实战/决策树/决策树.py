@@ -346,15 +346,17 @@ def main():
     myTree = createTree(dataSet, labels,featLabels)
     print('myTree:\n', myTree)
     createPlot(myTree)
+    #保存决策树
     storeTree(myTree,'classifierStorage.txt')
     desicionTree = grabTree('classifierStorage.txt')
-    createPlot(desicionTree)
+    #使用刚才保存的决策树
+    print('desicionTree is:\n',desicionTree)
 
 if __name__ == '__main__':
     dataSet, labels = createDataSet()
     featLabels = []
     myTree = createTree(dataSet, labels,featLabels)
-    testVec = [0,1]										#测试数据
+    testVec = [0,0]										#测试数据
     result = classify(myTree, featLabels, testVec)
     if result == 'yes':
         print('放贷')
